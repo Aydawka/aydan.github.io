@@ -1,1 +1,1 @@
-# aydawka.org
+# aydawka
