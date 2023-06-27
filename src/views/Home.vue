@@ -135,7 +135,7 @@ const activeKey:Ref<string>= ref('');
   left: 75%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
 }
 
