@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {defineComponent, h, ref, Component, Ref} from 'vue'
-import { NIcon, NMenu, NCarousel } from 'naive-ui'
+import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
 import type { MenuOption } from 'naive-ui'
 import {
   BookOutline as BookIcon,
@@ -111,6 +111,9 @@ const activeKey:Ref<string>= ref('');
 <!--      </div>-->
    </main>
 
+    <n-gradient-text type="success">
+    Haha!
+  </n-gradient-text>
 </template>
 
 
