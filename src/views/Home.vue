@@ -4,8 +4,7 @@ import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
 import type { MenuOption } from 'naive-ui'
 import {
   BookOutline as BookIcon,
-  PersonOutline as PersonIcon,
-  WineOutline as WineIcon
+
 } from '@vicons/ionicons5'
 import {RouterLink} from "vue-router";
 
