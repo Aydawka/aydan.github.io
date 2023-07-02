@@ -59,7 +59,7 @@ const menuOptions: MenuOption[] = [
             }
           }
         },
-        { default: () => 'Projects' }
+        { default: () => 'Recent Projects' }
       ),
     key: 'projects',
     icon: renderIcon(BookIcon),
