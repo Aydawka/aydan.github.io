@@ -101,6 +101,10 @@ const activeKey:Ref<string>= ref('');
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
     <div class="carousel-text">Text 3</div>
   </div>
+      <div class="carousel-slide">
+    <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
+    <div class="carousel-text">Text 2</div>
+  </div>
 </n-carousel>
 </div>
 <!--      <div class="content">-->
@@ -111,7 +115,7 @@ const activeKey:Ref<string>= ref('');
    </main>
 
     <n-gradient-text type="success">
-    Haha!
+    Personal project section
   </n-gradient-text>
 </template>
 
