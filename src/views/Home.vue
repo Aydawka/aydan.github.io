@@ -103,10 +103,6 @@ const activeKey:Ref<string>= ref('');
   </div>
       <div class="carousel-slide">
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text">Text 3</div>
-  </div>
-      <div class="carousel-slide">
-    <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
     <div class="carousel-text">Text 2</div>
   </div>
 </n-carousel>
