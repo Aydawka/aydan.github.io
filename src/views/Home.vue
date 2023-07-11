@@ -1,12 +1,11 @@
 <script setup lang="ts">
+import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
 
 </script>
 
 <template>
   <main class="home-page">
-    <div class="header">
-      <h1><a href="/">home</a></h1>
-    </div>
+
 <div class="carousel">
 
 <n-carousel>
@@ -62,9 +61,7 @@
   font-weight: bold;
 }
 
-.header{
-    margin: 0 5rem 0 5rem;
-}
+
 
 h1{margin: 0}
 </style>

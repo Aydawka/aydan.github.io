@@ -79,27 +79,41 @@ const activeKey:Ref<string>= ref('');
 </script>
 
 <template>
-      <main class="home-page">
-    <div class="header">
-      <div class="menu">
-          <n-menu v-model:value="activeKey" mode="horizontal" :options="menuOptions" />
-      </div>
-    </div>
-   </main>
-  <RouterView />
+  <main class="home-page">
+  <div class="menu">
+       <div class="header">
+           <h1><a href="/">Home</a></h1>
+       </div>
+
+      <n-menu v-model:value="activeKey" mode="horizontal" :options="menuOptions" />
+  </div>
+
+
+    <RouterView />
+
+  </main>
 </template>
 <style scoped>
 
+.home-page{
+        margin: 0 2rem 0 2rem;
+
+}
 .menu{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0.5rem 1rem ;
+    border-bottom: 2px solid black;
+
+}
+.header{    display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-end;}
 
-}
-
-.header{
-    margin: 0 5rem 0 5rem;
-}
 
 h1{margin: 0}
+
+a{text-decoration: none;
+color: black}
 </style>
