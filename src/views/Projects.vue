@@ -20,10 +20,7 @@ import {NList, NListItem, NSpace, NTag, NThing} from "naive-ui";
         </template>
         Lorem ipsum dolor sit amet,<br>
         consectetur adipiscing elit,<br>
-        sed do eiusmod tempor incididunt<br>
-        ut labore et dolore magna aliqua.<br>
-        Ut enim ad minim veniam,<br>
-        quis nostrud exercitation ullamco
+
       </n-thing>
     </n-list-item>
     <n-list-item>
