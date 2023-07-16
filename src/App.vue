@@ -66,8 +66,20 @@ const menuOptions: MenuOption[] = [
     icon: renderIcon(BookIcon),
     children: [
       {
-        label: 'Cybersecurity',
-        key: 'cyber-security'
+                label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: 'publications',
+            params: {
+              lang: 'en-US'
+            }
+          }
+        },
+        { default: () => 'Publications' }
+      ),
+        key: 'publications'
       }
     ]
   },
