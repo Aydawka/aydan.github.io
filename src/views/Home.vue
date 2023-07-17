@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
-
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -11,22 +11,17 @@ import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
 <n-carousel show-arrow>
   <div class="carousel-slide">
     <img class="carousel-img" src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.webp?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=">
-    <div class="carousel-text"> Hello! I'm a software engineer with practical experience developing applications using JavaScript and Python.
-          I'm a passionate, driven, and quick life-long learner dedicated to providing solutions through problem solving
-          and troubleshooting.</div>
+    <div class="carousel-text"><RouterLink to="about/me" class="carousel-text">See About Me :)</RouterLink></div>
   </div>
   <div class="carousel-slide">
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text"><Routerlink to=""></Routerlink></div>
+    <div class="carousel-text"><RouterLink to="publications" class="carousel-text">See my Publications</RouterLink></div>
   </div>
   <div class="carousel-slide">
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text">Text 3</div>
+    <div class="carousel-text"><RouterLink to="projects" class="carousel-text">See my Projects</RouterLink></div>
   </div>
-      <div class="carousel-slide">
-    <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text">Text 2</div>
-  </div>
+
 </n-carousel>
 </div>
 
@@ -46,6 +41,10 @@ import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
   object-fit: cover;
 }
 
+.carousel-text{
+    color: white;
+    text-decoration: none;
+}
 
 .carousel-text {
   position: absolute;
