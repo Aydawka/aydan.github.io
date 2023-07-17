@@ -8,7 +8,7 @@ import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
 
 <div class="carousel">
 
-<n-carousel>
+<n-carousel show-arrow>
   <div class="carousel-slide">
     <img class="carousel-img" src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.webp?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=">
     <div class="carousel-text"> Hello! I'm a software engineer with practical experience developing applications using JavaScript and Python.
@@ -17,7 +17,7 @@ import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
   </div>
   <div class="carousel-slide">
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text">Text 2</div>
+    <div class="carousel-text"><Routerlink to=""></Routerlink></div>
   </div>
   <div class="carousel-slide">
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
@@ -29,11 +29,7 @@ import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
   </div>
 </n-carousel>
 </div>
-<!--      <div class="content">-->
-<!--          Hello! I'm a software engineer with practical experience developing applications using JavaScript and Python.-->
-<!--          I'm a passionate, driven, and quick life-long learner dedicated to providing solutions through problem solving-->
-<!--          and troubleshooting. I am a creative soul who loves brainstorming solutions – be it with a computer or a client.-->
-<!--      </div>-->
+
    </main>
 
     <n-gradient-text type="success">

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import {defineComponent, h, ref, Component, Ref} from 'vue'
-import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
+import { h, ref, Component, Ref} from 'vue'
+import { NIcon, NMenu } from 'naive-ui'
 import type { MenuOption } from 'naive-ui'
 import {
   BookOutline as BookIcon,

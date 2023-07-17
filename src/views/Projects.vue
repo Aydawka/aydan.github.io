@@ -1,50 +1,34 @@
 <script setup>
-import {NList, NListItem, NSpace, NTag, NThing} from "naive-ui";
+import {NList, NListItem, NCard, NThing} from "naive-ui";
 
 
 </script>
 <template>
   <h1>Projects</h1>
+    <div class="project-list">
   <n-list hoverable clickable>
     <n-list-item>
-      <n-thing title="Better Late Than Never" content-style="margin-top: 10px;">
-        <template #description>
-          <n-space size="small" style="margin-top: 4px">
-            <n-tag :bordered="false" type="info" size="small">
-              Tag A
-            </n-tag>
-            <n-tag :bordered="false" type="info" size="small">
-              Tag B
-            </n-tag>
-          </n-space>
-        </template>
+      <n-card title="Better Late Than Never" content-style="margin-top: 10px;">
         Lorem ipsum dolor sit amet,<br>
         consectetur adipiscing elit,<br>
 
-      </n-thing>
+      </n-card>
     </n-list-item>
     <n-list-item>
-      <n-thing title="Lorem Ipsum" content-style="margin-top: 10px;">
-        <template #description>
-          <n-space size="small" style="margin-top: 4px">
-            <n-tag :bordered="false" type="info" size="small">
-              Tag C
-            </n-tag>
-            <n-tag :bordered="false" type="info" size="small">
-              Tag D
-            </n-tag>
-          </n-space>
-        </template>
-        Lorem ipsum dolor sit amet,<br>
-        consectetur adipiscing elit,<br>
-        sed do eiusmod tempor incididunt<br>
-        ut labore et dolore magna aliqua.<br>
+      <n-card title="Lorem Ipsum" content-style="margin-top: 10px;">
         Ut enim ad minim veniam,<br>
         quis nostrud exercitation ullamco
-      </n-thing>
+      </n-card>
     </n-list-item>
   </n-list>
+    </div>
 </template>
 
 <style>
+
+.project-list{
+    display: flex;
+    justify-content: center;
+}
+
 </style>
