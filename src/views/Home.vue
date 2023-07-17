@@ -21,7 +21,6 @@ import { RouterLink } from "vue-router";
     <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
     <div class="carousel-text"><RouterLink to="projects" class="carousel-text">See my Projects</RouterLink></div>
   </div>
-
 </n-carousel>
 </div>
 
