@@ -10,6 +10,7 @@
       Hello! I'm a software engineer with practical experience developing applications using JavaScript and Python.
           I'm a passionate, driven, and quick life-long learner dedicated to providing solutions through problem solving.
       My ORCID si https://orcid.org/0009-0001-6902-097X
+      mypublications and
   </div>
 </template>
 <style>
