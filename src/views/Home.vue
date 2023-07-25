@@ -10,7 +10,7 @@ import { RouterLink } from "vue-router";
 
 <n-carousel show-arrow>
   <div class="carousel-slide">
-    <img class="carousel-img" src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.webp?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=">
+    <img class="carousel-img" src="https://i.etsystatic.com/19848283/r/il/25fe0b/2347020755/il_fullxfull.2347020755_dp0a.jpg">
     <div class="carousel-text"><RouterLink to="about/me" class="carousel-text">See About Me :)</RouterLink></div>
   </div>
   <div class="carousel-slide">
