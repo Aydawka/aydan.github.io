@@ -18,7 +18,7 @@ import {NList, NListItem, NCard, NThing} from "naive-ui";
       <n-card
               title="A lightweight Distributed Database Management in WS"
                content-style="margin-top: 10px;">
-        N
+        List of publications
       </n-card>
     </n-list-item>
     <n-list-item>
