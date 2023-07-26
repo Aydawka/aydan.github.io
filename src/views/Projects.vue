@@ -5,7 +5,9 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
 
 </script>
 <template>
-  <h1>Projects <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px"></h1>
+  <h1>Projects
+      <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px">
+  </h1>
     <div class="project-list">
   <n-list hoverable clickable>
     <n-list-item>
@@ -25,11 +27,15 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
     </div>
 </template>
 
-<style>
+<style scoped>
+.n-list.n-list--show-divider.n-list--hoverable.n-list--clickable{
+    width: 700px;
+}
 
 .project-list{
     display: flex;
     justify-content: center;
+
 }
 
 </style>
