@@ -3,6 +3,7 @@ import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Projects from "@/views/Projects.vue";
 import Publications from "@/views/Publications.vue";
+import Contact from "@/views/Contact.vue";
 
 
 const router = createRouter({
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/publications',
       name: 'publications',
       component: Publications
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
     },
   ]
 })
