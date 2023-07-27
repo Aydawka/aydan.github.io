@@ -113,7 +113,7 @@ const activeKey:Ref<string>= ref('');
   <main class="home-page">
   <div class="menu">
        <div class="header">
-           <h1><a href="/">Home</a></h1>
+           <h1 class="portfolio"><a href="/">Portfolio</a></h1>
        </div>
 
       <n-menu v-model:value="activeKey" mode="horizontal" :options="menuOptions" />
@@ -145,6 +145,14 @@ const activeKey:Ref<string>= ref('');
 
 h1{margin: 0}
 
-a{text-decoration: none;
-color: black}
+a{
+    text-decoration: none;
+color: black;
+}
+
+.portfolio{
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
 </style>

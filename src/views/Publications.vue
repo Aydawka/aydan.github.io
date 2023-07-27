@@ -39,8 +39,6 @@ import {NList, NListItem, NCard, NThing} from "naive-ui";
     justify-content: center;
 }
 
-.header{
-   margin-left: 23%;
-}
+
 
 </style>
