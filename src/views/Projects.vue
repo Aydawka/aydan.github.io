@@ -24,6 +24,28 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
       </n-card>
     </n-list-item>
   </n-list>
+
+
+
+
+
+
+
+          <n-card title="My ORCID">
+        https://orcid.org/0009-0001-6902-097X
+    </n-card>
+    <n-card title="My github address">
+        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My github</a>
+    </n-card>
+    <n-card title="My scholar page address">
+        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My scholar</a>
+    </n-card>
+    <n-card title="My linkedin">
+        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My linkedin</a>
+    </n-card>
+    <n-card title="My researchgate">
+        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My researchgate</a>
+    </n-card>
     </div>
 </template>
 
