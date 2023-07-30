@@ -7,7 +7,7 @@ import Contact from "@/assets/animation_lkp12hif.json";
 
 </script>
 <template>
-  <h1 class="header">Contact me <img src="../assets/PermContactCalendarRound.svg" style="width: 20px;height: 20px"></h1>
+  <h1 class="header">Contact Me <img src="../assets/PermContactCalendarRound.svg" style="width: 20px;height: 20px"></h1>
     <div class="project-list">
         <div class="list">
   <n-list hoverable clickable>

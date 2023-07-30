@@ -6,7 +6,7 @@ import { Vue3Lottie } from "vue3-lottie";
 </script>
 <template>
 
-  <h1 class="about-h1">About page</h1>
+  <h1 class="about-h1">About Page</h1>
     <div class="about-general">
       <div class="about">
           Hello! I'm a software engineer with practical experience developing applications using JavaScript and Python.
@@ -46,7 +46,6 @@ h1{
 .about-h1{
         font-size: 4rem;
     transform: translateY(50%);
-    text-transform: uppercase;
     font-weight: 800;
 }
 
