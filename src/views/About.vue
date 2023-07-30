@@ -28,7 +28,7 @@ import { Vue3Lottie } from "vue3-lottie";
     font-weight: bold;
     color: #3b1f29;
     margin-left: 30rem;
-    background: #F6DBDFF2;
+
     padding: 5rem;
 }
 
@@ -44,7 +44,7 @@ h1{
 }
 
 .about-h1{
-        font-size: 6rem;
+        font-size: 4rem;
     transform: translateY(50%);
     text-transform: uppercase;
     font-weight: 800;

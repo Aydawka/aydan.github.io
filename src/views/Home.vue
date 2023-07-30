@@ -1,61 +1,47 @@
 <script setup lang="ts">
-import { NIcon, NMenu, NCarousel, NGradientText } from 'naive-ui'
-import { RouterLink } from "vue-router";
+import DocumentationPageLottie from "@/assets/animation_lkp2ahxs.json";
+import { Vue3Lottie } from "vue3-lottie";
+import {NButton} from 'naive-ui'
 </script>
 
 <template>
   <main class="home-page">
-
-<div class="carousel">
-
-<n-carousel show-arrow>
-  <div class="carousel-slide">
-    <img class="carousel-img" src="https://i.etsystatic.com/19848283/r/il/25fe0b/2347020755/il_fullxfull.2347020755_dp0a.jpg">
-    <div class="carousel-text"><RouterLink to="about/me" class="carousel-text">Aydan Gasimova :)</RouterLink></div>
-  </div>
-  <div class="carousel-slide">
-    <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text"><RouterLink to="publications" class="carousel-text">See my Publications</RouterLink></div>
-  </div>
-  <div class="carousel-slide">
-    <img class="carousel-img" src="https://htmlcolorcodes.com/assets/images/colors/dark-blue-color-solid-background-1920x1080.png">
-    <div class="carousel-text"><RouterLink to="projects" class="carousel-text">See my Projects</RouterLink></div>
-  </div>
-</n-carousel>
-</div>
-
+    <div class="header">
+        Aydan gasimova
+    <div class="text">
+        I'm a software engineer with practical experience developing applications using JavaScript and Python.
+    <div class="button-wng" ><n-button type="warning"><RouterLink to="/contact">Contact me</RouterLink></n-button></div>
+    </div>
+    </div>
+    <div class="yoga">
+      <Vue3Lottie :animationData="DocumentationPageLottie" :height="300" :width="300" />
+    </div>
    </main>
-
-    <n-gradient-text type="success">
-    Personal project section
-  </n-gradient-text>
 </template>
 
 
 
 <style scoped>
-.carousel-img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+.home-page{
+    display: flex;
+gap: 25rem;}
+
+
+
+.header{
+    margin-left:15rem;
+    font-size: 3.5rem;
+    transform: translateY(50%);
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
 }
 
-.carousel-text{
-    color: white;
-    text-decoration: none;
+.text{
+    font-size: 1rem;
+    font-weight: 500;
+
 }
-
-.carousel-text {
-  position: absolute;
-  top: 40%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-
 
 h1{margin: 0}
 </style>
