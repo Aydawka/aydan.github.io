@@ -1,26 +1,52 @@
 <script setup>
-import {NList, NListItem, NCard, NThing} from "naive-ui";
+import {NList, NListItem, NCard, NThing, NButton} from "naive-ui";
 import { Icon, IconConfigProvider } from "@vicons/utils";
 
 
 </script>
 <template>
-  <h1>Projects
+  <h1 class="prj">Projects
       <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px">
   </h1>
     <div class="project-list">
+   <div class="button-wng" >
+      <n-button type="warning"><RouterLink to="/contact" style="text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 1rem;"
+    >My Github
+    </RouterLink>
+    </n-button>
+    </div>
   <n-list hoverable clickable>
     <n-list-item>
-      <n-card title="Summer conference system"
-              content-style="margin-top: 10px;">
-        conference system<br>
-
+      <n-card title="Conference Management System (CMS)"
+        content-style="margin-top: 10px;">
+        The main functionality of this conference management software is online registration,
+        collecting submissions, papers management, peer review management, and accepting or rejecting authors submissions
+        to be presented at the conference day(s). In addition, the conference management system may have further features
+        depending on any other purposes determined by conference admins. This project implements a conference management
+        system that allows the submission and review of papers for a conference. The system has the following user entities:
+        Admin, Chief Editor, Reviewer,
+        Author, and Paper each having different roles and attributes.
+        This can be accomplished through a user-friendly conference management system. <br>
       </n-card>
     </n-list-item>
     <n-list-item>
-      <n-card title="Web crawler" content-style="margin-top: 10px;">
-        Ut enim ad minim veniam,<br>
-        quis nostrud exercitation ullamco
+      <n-card title="Web crawler with is a focused search engine" content-style="margin-top: 10px;">
+        This project implement the first part of a World Wide Web search engine using Breadth-first searched based tree traversal method. It crawls web pages, collects data, builds a simple index, and saves the collected data.
+        The users can specify the maximum number of web pages to be indexed. System collect as many pages as possible,
+        but less than the maximum page number (500). Several seed URLs may be used and pages are collected accumulatively.
+      </n-card>
+    </n-list-item>
+
+    <n-list-item>
+      <n-card title="Summer Housing for Conferences at UND" content-style="margin-top: 10px;">
+        The main functionality of this conference management software is online registration,
+        collecting submissions, papers management, peer review management, and accepting or rejecting authors submissions
+        to be presented at the conference day(s). In addition, the conference management system may have further features
+        depending on any other purposes determined by conference admins.
+        This can be accomplished through a user-friendly conference management system.
       </n-card>
     </n-list-item>
   </n-list>
@@ -57,7 +83,24 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
 .project-list{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+  align-items: center;
 }
 
+.button-wng{
+  margin-top: 3rem;
+      margin-left: -28rem;
+}
+
+
+.n-button{
+      height: 3.5rem;
+      width: 14rem;
+}
+
+.prj{display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -28rem;
+}
 </style>

@@ -13,3 +13,8 @@ h1{
 .n-card-header__main{
   font-size: 1.5rem;
 }
+
+
+*{
+  background: #eff6ef;
+}

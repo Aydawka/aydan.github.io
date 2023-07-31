@@ -12,11 +12,15 @@ import {NButton} from 'naive-ui'
       I'm a software engineer with practical experience developing applications using TypeScript and Python.
       I'm a passionate, driven, and quick life-long learner dedicated to providing
       solutions through problem solving and troubleshooting.
-    <div class="button-wng" ><n-button type="warning"><RouterLink to="/contact" style="text-decoration: none;
+    <div class="button-wng" >
+      <n-button type="warning"><RouterLink to="/contact" style="text-decoration: none;
     font-size: 1.7rem;
     font-weight: 800;
     padding: 1rem;"
-    >Contact me</RouterLink></n-button></div>
+    >Contact me
+    </RouterLink>
+    </n-button>
+    </div>
     </div>
     </div>
     <div class="yoga">

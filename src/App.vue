@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import { h, ref, Component, Ref} from 'vue'
+import { h, ref} from 'vue'
+import type {Component, Ref} from 'vue'
 import { NIcon, NMenu } from 'naive-ui'
 import type { MenuOption } from 'naive-ui'
 import {
@@ -154,5 +155,9 @@ color: black;
     letter-spacing: 2px;
     font-weight: 800;
     font-size: 2.5rem;
+}
+.n-menu{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 </style>
