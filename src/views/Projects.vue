@@ -93,10 +93,7 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
 }
 
 
-.n-button{
-      height: 3.5rem;
-      width: 14rem;
-}
+
 
 .prj{display: flex;
   justify-content: center;
