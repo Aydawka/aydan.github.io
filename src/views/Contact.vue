@@ -88,4 +88,10 @@ import Contact from "@/assets/animation_lkp12hif.json";
     gap: 1rem;
 }
 
+.n-list.n-list--show-divider{
+  min-width: 20rem;
+}
+
+
+
 </style>

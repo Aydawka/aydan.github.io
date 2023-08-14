@@ -93,8 +93,6 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
 }
 
 
-
-
 .prj{display: flex;
   justify-content: center;
   align-items: center;
