@@ -83,6 +83,8 @@ import Contact from "@/assets/animation_lkp12hif.json";
     font-weight: 800;
 }
 
+
+
 .list-items{
     display: flex;
     gap: 1rem;
