@@ -14,8 +14,7 @@ import { Vue3Lottie } from "vue3-lottie";
         I'm a passionate, driven, and quick life-long learner dedicated to providing solutions through problem solving and troubleshooting.
         I am a creative soul who loves brainstorming solutions – be it with a computer or a client.
         I love all aspects of software development from full-stack development to data science.
-        Although I enjoy experimenting with different technology and building side-projects,
-        I excel in a collaborative team-based environment with a variety of differing perspectives.
+
 
 
       </div>
@@ -58,7 +57,6 @@ import { Vue3Lottie } from "vue3-lottie";
   height: 35px;
   top: 50px;
   left: 85px;
-  background: #fff;
   border-radius: 50%;
   opacity: 0.9;
 }
@@ -76,7 +74,7 @@ import { Vue3Lottie } from "vue3-lottie";
     font-size: 4rem;
     margin-top: 0!important;
     font-weight: 800;
-
+    background: none!important;
 
 }
 
@@ -84,4 +82,43 @@ import { Vue3Lottie } from "vue3-lottie";
     margin-top: 6rem;}
 
 .yoga{min-width: 35rem}
+
+
+@media all and (max-width: 1388px) {
+.about-h1{
+    font-size: 2rem;
+    font-weight: 800;
+  min-width: 30rem;
+}
+
+
+.about{margin-left: 8rem}
+
+}
+
+@media all and (max-width: 1130px) {
+.lottie-animation-container{
+  margin-left: 2.5rem!important;
+
+}
+  .about{
+    margin-left: 0;
+      width: 600px;
+    height: 300px;}
+
+}
+
+@media all and (max-width: 970px) {
+  .about-general{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+    }
+.lottie-animation-container{
+  width: 100px;
+  height: 100px;
+
+}
+}
+
 </style>
