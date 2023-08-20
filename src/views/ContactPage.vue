@@ -1,6 +1,5 @@
-<script setup>
-import {NList, NListItem, NCard, NThing} from "naive-ui";
-import { Icon, IconConfigProvider } from "@vicons/utils";
+<script setup lang="ts">
+import {NList, NListItem, NCard } from "naive-ui";
 import {Vue3Lottie} from "vue3-lottie";
 import Contact from "@/assets/animation_lkp12hif.json";
 

@@ -1,6 +1,5 @@
-<script setup>
-import {NList, NListItem, NCard, NThing, NButton} from "naive-ui";
-import { Icon, IconConfigProvider } from "@vicons/utils";
+<script setup lang="ts">
+import {NList, NListItem, NCard, NButton} from "naive-ui";
 
 
 </script>
