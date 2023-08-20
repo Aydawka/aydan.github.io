@@ -14,7 +14,15 @@ h1{
   font-size: 1.5rem;
 }
 
-
-*{
-  background: #eff6ef;
+.n-menu.n-menu--horizontal {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.menu{
+
+    flex-wrap: wrap;
+}
+/**{*/
+/*  background: #eff6ef;*/
+/*}*/

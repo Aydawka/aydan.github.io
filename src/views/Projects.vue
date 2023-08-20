@@ -9,7 +9,7 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
       <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px">
   </h1>
     <div class="project-list">
-   <div class="button-wng" >
+         <div class="button-wng" >
       <n-button type="warning"><RouterLink to="/contact" style="text-decoration: none;
     font-size: 1.7rem;
     font-weight: 800;
@@ -52,26 +52,6 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
   </n-list>
 
 
-
-
-
-
-
-<!--          <n-card title="My ORCID">-->
-<!--        https://orcid.org/0009-0001-6902-097X-->
-<!--    </n-card>-->
-<!--    <n-card title="My github address">-->
-<!--        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My github</a>-->
-<!--    </n-card>-->
-<!--    <n-card title="My scholar page address">-->
-<!--        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My scholar</a>-->
-<!--    </n-card>-->
-<!--    <n-card title="My linkedin">-->
-<!--        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My linkedin</a>-->
-<!--    </n-card>-->
-<!--    <n-card title="My researchgate">-->
-<!--        <a href="https://scholar.google.com/citations?user=7n1nsmsAAAAJ&hl=en&oi=ao" target="_blank">My researchgate</a>-->
-<!--    </n-card>-->
     </div>
 </template>
 
@@ -98,4 +78,8 @@ import { Icon, IconConfigProvider } from "@vicons/utils";
   align-items: center;
   margin-left: -28rem;
 }
+
+
+
+
 </style>
