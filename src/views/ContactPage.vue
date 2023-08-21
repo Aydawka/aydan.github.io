@@ -18,14 +18,6 @@ import Contact from "@/assets/animation_lkp12hif.json";
              <n-list-item>
               <n-card content-style="margin-top: 10px;">
                   <div class="list-items">
-              <img src="../assets/LocalPhoneRound.svg" style="width: 20px;height: 20px">
-                  701-xxxxxx
-                      </div>
-              </n-card>
-            </n-list-item>
-             <n-list-item>
-              <n-card content-style="margin-top: 10px;">
-                  <div class="list-items">
                   <a href="mailto:aydan.gasimova@gmail.com"  target="_blank">
                     <img src="../assets/AlternateEmailOutlined.svg" style="width: 20px;height: 20px">
                   </a>
