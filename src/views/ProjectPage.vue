@@ -4,9 +4,9 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
 
 </script>
 <template>
-  <h1 class="prj">Projects
-      <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px">
-  </h1>
+      <h1 class="prj">Projects
+          <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px">
+      </h1>
     <div class="project-list">
          <div class="button-wng" >
       <n-button type="warning"><RouterLink to="/contact" style="text-decoration: none;
