@@ -32,7 +32,7 @@ import {NButton} from 'naive-ui'
       </div>
 
         <div class="yoga">
-          <Vue3Lottie :animationData="DocumentationPageLottie" :height="300" :width="300" />
+          <Vue3Lottie :animationData="DocumentationPageLottie" :height="400" :width="400" />
         </div>
       </div>
    </main>

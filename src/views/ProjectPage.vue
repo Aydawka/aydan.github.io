@@ -9,10 +9,11 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
       </h1>
     <div class="project-list">
          <div class="button-wng" >
-      <n-button type="warning"><RouterLink to="/contact" style="text-decoration: none;
-    font-size: 1.7rem;
-    font-weight: 800;
-    padding: 1rem;"
+      <n-button type="info" style="height: 3rem; width: 10rem"><RouterLink to="/contact"
+    style="text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 750;"
     >My Github
     </RouterLink>
     </n-button>
