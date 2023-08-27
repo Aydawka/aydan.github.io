@@ -41,9 +41,6 @@ import {NButton} from 'naive-ui'
 
 
 
-
-
-
 <style scoped>
 .home-page{
     display: flex;
