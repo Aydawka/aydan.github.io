@@ -83,24 +83,7 @@ const menuOptions: MenuOption[] = [
         key: 'publications'
       }
     ]
-  },
-    {
-        label: () =>
-      h(
-        RouterLink,
-        {
-          to: {
-            name: 'contact',
-            params: {
-              lang: 'en-US'
-            }
-          }
-        },
-        { default: () => 'Contact Me' }
-      ),
-    key: 'contact',
-    icon: renderIcon(BookIcon),
-  },
+  }
 
 
 ]

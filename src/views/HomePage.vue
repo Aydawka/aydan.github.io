@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import DocumentationPageLottie from "@/assets/animation_lkp2ahxs.json";
 import { Vue3Lottie } from "vue3-lottie";
-import {NButton} from 'naive-ui'
+import {NButton, NCard, NList, NListItem} from 'naive-ui'
+
 </script>
 
 <template>
@@ -30,15 +31,33 @@ import {NButton} from 'naive-ui'
         </div>
         </div>
       </div>
-fffd
+
         <div class="yoga">
           <Vue3Lottie :animationData="DocumentationPageLottie" :height="400" :width="400" />
 
         </div>
       </div>
-   </main>
-</template>
 
+   </main>
+  <div class="footer">
+                  <div class="list-items">
+                  <a href="mailto:aydan.gasimova@gmail.com"  target="_blank">
+                    <img src="../assets/AlternateEmailOutlined.svg" style="width: 60px;height: 60px">
+                  </a>
+              </div>
+                <div class="list-items">
+                  <a href="https://www.linkedin.com/in/aydan-gasimova-a98b7521b/"
+                     target="_blank">
+                    <img src="../assets/Linkedin.svg" style="width: 60px;height: 60px">
+                  </a>
+                  </div>
+                <div class="list-items">
+                  <a href="https://github.com/Aydawka" target="_blank">
+                      <img src="../assets/LogoGithub.svg" style="width: 60px;height: 60px">
+                  </a>
+                </div>
+      </div>
+</template>
 
 
 <style scoped>
@@ -114,6 +133,26 @@ min-width: 65rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   outline: 2px solid #f5ae4f;
 }
+
+.footer{
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+  border-top: 2px solid black;
+  padding-top: 2rem;}
+
+
+main{
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 
 @media all and (max-width: 1500px) {
 .home-page{
