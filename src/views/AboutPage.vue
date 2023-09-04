@@ -35,15 +35,9 @@ import { Vue3Lottie } from "vue3-lottie";
     font-weight: bold;
     color: #3b1f29;
     margin-left: 15rem;
-    padding: 5rem;
     width: 900px;
     height: 400px;
-    box-shadow: inset 20px 20px 20px rgba(0,0,0,0.05),
-    25px 35px 20px rgba(0,0,0,0.05),
-    25px 35px 30px rgba(0,0,0,0.05),
-    inset -20px -20px 25px rgba(0,0,0,0.09);
-    border-radius: 57% 43% 43% 57%/43% 43% 57% 57%;
-  transition: 0.5s ease-in-out;
+
 }
 
 .about:hover{
@@ -88,7 +82,7 @@ import { Vue3Lottie } from "vue3-lottie";
 .about-h1{
     font-size: 2rem;
     font-weight: 800;
-  min-width: 30rem;
+
 }
 
 
@@ -108,17 +102,35 @@ import { Vue3Lottie } from "vue3-lottie";
 
 }
 
-@media all and (max-width: 970px) {
+
+@media all and (max-width: 820px) {
+
   .about-general{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    align-items: flex-start;
-    }
-.lottie-animation-container{
-  width: 100px;
-  height: 100px;
+    flex-direction: column-reverse;
+  }
+
+
+/*.lottie-animation-container{
+  width: 200px;
+  height: 200px;
+  display: flex;
+    justify-content: center;
+
+}*/
 
 }
+
+
+
+@media all and (max-width: 520px) {
+
+.about{
+  max-width: 25rem;
 }
+}
+
+
+
+
 
 </style>

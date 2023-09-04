@@ -26,3 +26,22 @@ h1{
 /**{*/
 /*  background: #eff6ef;*/
 /*}*/
+
+
+ .n-card-header__main, .n-collapse-item__header-main {
+   color: #00629B!important;
+     font-family: fantasy
+}
+
+/*
+.project-list .n-card__content{
+    max-width: 25rem;
+}*/
+
+
+@media all and (max-width: 875px) {
+    .n-list.n-list--show-divider.n-list--hoverable.n-list--clickable{
+    max-width: 25rem;
+}
+}
+

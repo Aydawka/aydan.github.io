@@ -65,9 +65,10 @@ const menuOptions: MenuOption[] = [
       ),
     key: 'projects',
     icon: renderIcon(BookIcon),
-    children: [
-      {
-                label: () =>
+    children: [ ]
+  },
+          {
+        label: () =>
       h(
         RouterLink,
         {
@@ -80,11 +81,9 @@ const menuOptions: MenuOption[] = [
         },
         { default: () => 'Publications' }
       ),
-        key: 'publications'
-      }
-    ]
-  }
-
+    key: 'publications',
+    icon: renderIcon(BookIcon),
+  },
 
 ]
 

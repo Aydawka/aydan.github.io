@@ -4,11 +4,12 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
 
 </script>
 <template>
+  <main>
       <h1 class="prj">Projects
           <img src="../assets/FundProjectionScreenOutlined.svg" style="width: 40px;height: 40px">
       </h1>
     <div class="project-list">
-         <div class="button-wng" >
+         <div class="button-wng" style="display: flex;flex-wrap: wrap; gap: 3rem" >
       <n-button type="info" style="height: 3rem; width: 10rem"><RouterLink to="/contact"
     style="text-decoration: none;
     color: black;
@@ -17,8 +18,39 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
     >My Github
     </RouterLink>
     </n-button>
+    <n-button type="info" style="height: 3rem; width: 15rem" content-style="margin-top: 10px;">
+    <div class="list-items">
+    <a href="https://orcid.org/0009-0001-6902-097X"
+       target="_blank">
+      <img src="../assets/Orcid.svg" style="width: 20px;height: 20px">
+    </a>
+    <a href="https://orcid.org/0009-0001-6902-097X"
+       style="text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 750;"
+       target="_blank">My ORCID profile
+    </a>
+     </div>
+    </n-button>
     </div>
   <n-list hoverable clickable>
+        <n-list-item>
+      <n-card title="Summer Housing for Conferences at UND" content-style="margin-top: 10px;">
+The UND Summer Conference System is a web-based platform designed to facilitate
+        the seamless organization of academic conferences. It offers users the
+        capability to register, log in, and create teams, thus enabling efficient
+        coordination for conference attendance. Powered by AngularJS for frontend
+        and PHP for backend, with data stored in MySQL, participants can select their
+        preferred conference day duration, tailoring their experience to their specific
+        needs, and they can assemble teams with varying numbers of individuals to enhance
+        collaboration and engagement. Moreover, the system streamlines the housing booking
+        process, allowing users to reserve accommodations on the UND campus, ensuring a convenient
+        and comfortable stay during the conference. This integrated platform optimizes the logistics
+        of academic gatherings, enhancing the overall experience for participants, speakers,
+        and organizers alike.
+      </n-card>
+    </n-list-item>
     <n-list-item>
       <n-card title="Conference Management System (CMS)"
         content-style="margin-top: 10px;">
@@ -40,19 +72,10 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
       </n-card>
     </n-list-item>
 
-    <n-list-item>
-      <n-card title="Summer Housing for Conferences at UND" content-style="margin-top: 10px;">
-        The main functionality of this conference management software is online registration,
-        collecting submissions, papers management, peer review management, and accepting or rejecting authors submissions
-        to be presented at the conference day(s). In addition, the conference management system may have further features
-        depending on any other purposes determined by conference admins.
-        This can be accomplished through a user-friendly conference management system.
-      </n-card>
-    </n-list-item>
+
   </n-list>
-
-
     </div>
+    </main>
 </template>
 
 <style scoped>
@@ -69,20 +92,22 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
 
 .button-wng{
   margin-top: 3rem;
-      margin-left: -28rem;
 }
 
 
 .prj{display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: -28rem;
+
 }
 
-.n-card.n-card--bordered .n-card-header__main{
 
-    color: #00629B!important;
+@media all and (max-width: 875px) {
+.project-list{
+ max-width: 25rem;
+  align-items: baseline;
 }
+}
+
 
 
 </style>

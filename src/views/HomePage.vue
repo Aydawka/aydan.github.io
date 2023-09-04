@@ -71,13 +71,11 @@ import {NButton, NCard, NList, NListItem} from 'naive-ui'
 
 
 .header{
-    margin-top: 4rem ;
-    margin-left:15rem;
-    font-size: 3.8rem;
-    transform: translateY(50%);
+    font-size: 2.8rem;
     font-weight: 600;
-    top: 50%;
 }
+
+
 
 .text{
     font-size: 1rem;
@@ -94,7 +92,7 @@ import {NButton, NCard, NList, NListItem} from 'naive-ui'
 
 h1{
   margin: 0;
-min-width: 65rem;
+min-width: 35rem;
 }
 
 .n-button{
@@ -154,18 +152,19 @@ a{
 }
 
 
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1100px) {
 .home-page{
     display: flex;
     gap: 0;
     flex-wrap: wrap-reverse;
     margin-top: 0;
+  margin-bottom: 5rem;
 }
 
 
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 875px) {
 .home-page{
     display: flex;
     gap: 0;
@@ -176,7 +175,7 @@ a{
   .header{
     max-width: 20rem;
     height: 0.3rem;
-
+    margin-left: 10rem;
 
   }
 
@@ -188,6 +187,8 @@ a{
   transform: translateY(50%);
     font-weight: 600;
     top: 50%;
+      margin-left: 0;
+
 }
 
    .text{ font-size: 1rem;
@@ -196,6 +197,12 @@ a{
     /* margin-top: 5rem; */
     padding-left: 4rem;}
 
-
+h1{
+  display: flex;
+  justify-content: center;
+}
+   .text-h1{
+     max-width: 20rem;
+}
 }
 </style>

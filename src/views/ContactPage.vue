@@ -15,36 +15,7 @@ import Contact from "@/assets/animation_lkp12hif.json";
     <div class="project-list">
       <div class="list">
           <n-list hoverable clickable>
-             <n-list-item>
-              <n-card content-style="margin-top: 10px;">
-                  <div class="list-items">
-                  <a href="mailto:aydan.gasimova@gmail.com"  target="_blank">
-                    <img src="../assets/AlternateEmailOutlined.svg" style="width: 20px;height: 20px">
-                  </a>
-                  <a href="mailto:aydan.gasimova@gmail.com"  target="_blank">
-                    aydan.gasimova@gmail.com
-                  </a>
-              </div>
-              </n-card>
-            </n-list-item>
-             <n-list-item>
-              <n-card
-                  content-style="margin-top: 10px;">
-                            <div class="list-items">
-              <a
-                  href="https://orcid.org/0009-0001-6902-097X"
-                 target="_blank"
-              >
-                <img src="../assets/Orcid.svg" style="width: 20px;height: 20px">
-              </a>
-              <a
-                  href="https://orcid.org/0009-0001-6902-097X"
-                 target="_blank">
-                ORCID
-              </a>
-               </div>
-              </n-card>
-            </n-list-item>
+
              <n-list-item>
               <n-card content-style="margin-top: 10px;">
                             <div class="list-items">

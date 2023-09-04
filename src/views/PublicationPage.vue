@@ -144,5 +144,9 @@ attacks.
   width: 1206.34px;
 }
 
+ .n-card-header__main{
+   color: #00629B!important;
+}
+
 
 </style>
