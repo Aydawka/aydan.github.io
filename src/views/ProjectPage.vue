@@ -79,7 +79,10 @@ import {NList, NListItem, NCard, NButton} from "naive-ui";
   margin-left: -28rem;
 }
 
+.n-card.n-card--bordered .n-card-header__main{
 
+    color: #00629B!important;
+}
 
 
 </style>

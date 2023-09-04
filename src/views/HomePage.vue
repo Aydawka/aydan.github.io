@@ -145,7 +145,7 @@ min-width: 65rem;
 
 
 main{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a{
