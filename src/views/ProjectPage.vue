@@ -44,9 +44,7 @@ The UND Summer Conference System is a web-based platform designed to facilitate
         and PHP for backend, with data stored in MySQL, participants can select their
         preferred conference day duration, tailoring their experience to their specific
         needs, and they can assemble teams with varying numbers of individuals to enhance
-        collaboration and engagement. Moreover, the system streamlines the housing booking
-        process, allowing users to reserve accommodations on the UND campus, ensuring a convenient
-        and comfortable stay during the conference. This integrated platform optimizes the logistics
+        collaboration and engagement. This integrated platform optimizes the logistics
         of academic gatherings, enhancing the overall experience for participants, speakers,
         and organizers alike.
       </n-card>
